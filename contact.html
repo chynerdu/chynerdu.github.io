@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial scal=1">
 <title>Inspiration avenue</title>
 <link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/font-awesome.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/aos.css">
 <script src="js/jquery.js"></script>
+<script src="js/lightbox.js"></script>
 <script src="js/bootstrap.js"></script>
+  <script src="js/aos.js"></script>
+   <script src="js/jquery.nicescroll.js"></script>
+<link rel="icon" type="image/png" href="images/icon2.jpg"/>
 <script>
-    $(document). ready(function(){
-        $('[data-toggle="tooltip"]').tooltip()
-    })
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover()
+    })</script>
+    <script>
+    $(document).ready(function(){
+        $("html").niceScroll();
+    });
     </script>
+
 </head>
 <body>
 
@@ -61,10 +73,10 @@
 </ul>
 </div>
 </nav>
- <div class="header"  style="background: url('images/img4.jpg');" >
+ <div class="header"  style="background: url('images/img4.jpg'); background-size:100%;" >
     <div class="text-center">
-        <h1 class="text-primary">Inspiration Avenue</h1>
-        <p class="text-primary">Be inspired</p>
+        <h1 class="text-primary aos-item" data-aos='fade-left'>Inspiration Avenue</h1><br><br>
+        <p class="text-primary">Contact us:</p>
 
         <div class="container">
     <div class="col-md-2">
@@ -89,7 +101,7 @@
 <div id="body3" >    
   <div id="registration">  
      
-       <div class="page-header"><h2 class="text-danger"><span class="fa fa-user-plus fa-2x"></span> Contact us</h2></div>
+       <div class="page-header aos-item" data-aos='zoom-out'><h2 class="text-danger"><span class="fa fa-user-plus fa-2x"></span> Contact us</h2></div>
 
     
      <div class="col-md-6 ">
@@ -130,26 +142,26 @@
     
  <div class="col-md-6">
      
-     <div class="page-header">
+     <div class="page-header aos-item" data-aos='zoom-in'>
          <h2 class="text-center" style="color:black;">Contact info</h2></div>
      <br>
    
    <address style="font-weight:bold;">
-     <h4 class="lead">Headquarters:</h4>
+     <h4 class="lead aos-item" data-aos='fade-left'>Headquarters:</h4>
      36/38c Inspiration Avenue, Ikoyi Lagos Nigeria.<br>
      Tel:<a href="tel:+2348082051993"> +2348082051993</a>, <a href="tel:+2348035674532">+2348035674532</a><br>
    Email: <a href="mailto:Info@inspirationavenue.com">info@inspirationavenue.com</a><br>
 </address>
 <hr>
 <address style="font-weight:bold;">
-     <h4 class="lead">Los Angeles:</h4>
+     <h4 class="lead aos-item" data-aos='fade-left'>Los Angeles:</h4>
      36/38c Edmond Estate, Los Angeles,<br>
      United States.<br>
      Tel: <a href="tel:+4417890567"> +4417890567</a>, <a href="tel:+44108174567">+44108174567</a><br>
    Email: <a href="mailto:Info@inspirationavenue.com">info@inspirationavenue.com</a><br>
 </address><hr>
  <address style="font-weight:bold;">
-     <h4 class="lead">Abuja:</h4>
+     <h4 class="lead aos-item" data-aos='fade-left'>Abuja:</h4>
      36/38c Inspiration Avenue, Maitama Abuja Nigeria.<br>
      Tel: <a href="tel:+234817452345"> +234817452345</a>, <a href="tel:+2348056789543">+2348056789543</a><br>
    Email: <a href="mailto:Info@inspirationavenue.com">info@inspirationavenue.com</a><br>
@@ -200,4 +212,9 @@
    </div>
 
     </body>
+         <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
     </html>

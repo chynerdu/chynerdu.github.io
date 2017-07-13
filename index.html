@@ -2,18 +2,28 @@
 <html>
 <head>
  
+<meta name="viewport" content="width=device-width, initial scal=1">
 <title>Inspiration avenue</title>
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/lightbox.css">
 <link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/aos.css">
 <script src="js/jquery.js"></script>
 <script src="js/lightbox.js"></script>
 <script src="js/bootstrap.js"></script>
+  <script src="js/aos.js"></script>
+   <script src="js/jquery.nicescroll.js"></script>
+<link rel="icon" type="image/png" href="images/icon2.jpg"/>
 <script>
     $(document).ready(function(){
         $('[data-toggle="popover"]').popover()
     })</script>
+    <script>
+    $(document).ready(function(){
+        $("html").niceScroll();
+    });
+    </script>
 
 </head>
 <body>
@@ -38,8 +48,8 @@
 <div class="panel-group" id="parentpanel2">
                        <div class="panel">
                          
-                               <a href="#panel2" style="color:#D43439;"data-parent="#parentpanel2" data-toggle="collapse">
-                                   <li style="color:#D43439;"><span class="fa fa-sign-in fa-lg"></span> Sign in</li>
+                               <a href="#panel2" style="color:#902020;"data-parent="#parentpanel2" data-toggle="collapse">
+                                   <li style="color:#902020;"><span class="fa fa-sign-in fa-lg"></span> Sign in</li>
                                    <div id="panel2" class="panel-collapse collapse">
                                        <div class="panel-body">
                                            <form>
@@ -62,7 +72,7 @@
 </ul>
 </div>
 </nav>
- <div class="header"  style="background: url('images/img4.jpg');" >
+ <div class="header"  style="background: url('images/img4.jpg') no-repeat; background-size:100%;" >
  
  <div id="signinform">
  <div class="col-md-3">
@@ -87,17 +97,19 @@
  </div><br><bbr><br>   
     <div class=" col-md-6 text-center">
         <div id="part2">
-        <h1>Inspiration Avenue</h1>
+        <h1 class='aos-item' data-aos='fade-left'>Inspiration Avenue</h1>
         <p>Be inspired</p>
     </div></div>
         </div>
        <br><br><br>
        
        <div class="col-md-3"> 
-            <div class="page-header"><h3 class="text-center" style=" color:white;letter-spacing: 2px; font-family:impact;">
+         
+            <div class="page-header1"><h3 class="text-center" style=" color:#902020;letter-spacing: 2px; font-family:impact;">
                Comments  
                 </h3></div>
-     <p style="font-weight:bold; color:silver;font-size:14px;word-spacing: 2px; text-shadow:none;"> Feel free to drop your comments and feedbacks on our service</p>
+                  <div id="page-header4">
+     <p style="font-weight:bold; color:#902020;font-size:14px;word-spacing: 2px; text-shadow:none;"> Feel free to drop your comments and feedbacks on our service</p>
          <button class="btn btn danger" data-toggle="modal" data-target="#modal2">  Click to drop your comments</button>
            
                                     <div class="modal fade" id="modal2">
@@ -127,21 +139,24 @@
                                <input type="submit" id="Submit" class=" btn btn-danger form-control">
                                </div>
                                </form>
-                              </div> </div></div></div></div><br><br>
+                              </div> </div></div></div></div>
                        
-                     
-
+                      </div></div>
+<hr>
+   
             <div class="container-fluid">
-               
+
                 <div class="content1">
                 <div class="col-md-10 col-md-offset-1">
+              <h3 class="text-default lead" style="color:black; font-family:impact; letter-spacing:1px;">We can..So you can!!</h3>
+     <hr size="5" noshade>
         <div class="carousel slide" id="carousel1" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carousel1" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel1" data-slide-to="1"></li>
                 <li data-target="#carousel1" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
+            <div class="carousel-inner aos-item" data-aos='zoom-in'>
                 <div class="item active">
                     <img src="images/slide4.jpg" class="img-rsponsive">
                     <div class="carousel-caption">
@@ -172,19 +187,19 @@
 
   
         </div>
- </div>
-  
-<br><hr>
-<br><br>
 
-    <h3 style=" margin-left:100px; margin-right:20px; font-weight:bold; border-bottom:2px solid grey;"><span class="fa fa-users fa-2x"></span>  Who we are</h3>
+  
+<hr>
+
+<div id="about1">
+    <h3 style=" margin-left:100px; color: #D43439; margin-right:20px; font-weight:bold; border-bottom:2px solid grey;"><span class="fa fa-users fa-2x"></span>  Who we are</h3>
     <hr size="5" noshade>
     <div class="container-fluid">
-     <div id="body" >
+     <div id="body" style=" background:url('images/img18.jpg'); background-size:100%" class="img-responsive">
      <div class="col-md-6">
       <div id="left-side" >   
       <br>
-        <h3 class="text-default lead">About Inspiration Avenue</h3>
+        <h3 class="text-default lead aos-item" data-aos='zoom-in'>About Inspiration Avenue</h3>
         <p>Inspiration avenue is an organization that is aimed at growing small and medium scale businesses through variety of our services.
             We offer professional trainings in the ICT, commercial and telecommunication sectors.
             we also provide a network for businnesss owners and professionals.<br> Inspiration avenue was established in 2017, in Lagos Nigeria.
@@ -192,7 +207,7 @@
             <div class="container-fluid">
       <div id="btn2">
           <div class="col-md-2 col-md-offset-8">
-        <button class="btn2 btn-danger">Read more..</button>
+       <a href="about.html"> <button class="btn2 btn-danger">Read more..</button></a>
           </div>
           </div></div>
             </p>
@@ -207,21 +222,21 @@
         <div class="col-md-5">
             <div id="right-side">
         <br>
-        <h3><span class="fa fa-picture-o fa-2x"></span> Gallery</h3>
+        <h3 class='aos-item' data-aos='zoom-out'><span class="fa fa-picture-o fa-2x"></span> Gallery</h3>
         <p>This are our most recent works</p><br><br>
         <div class="container-fluid">
-            <div class="col-md-6">
+            <div class="col-md-6 aos-item" data-aos='zoom-out'>
                 <a href="#" data-lightbox="gallery" data-title="creativity at its peak" class="thumbnail">
                     <img src="images/slide1.jpg" class="img-responsive"></a></div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 aos-item" data-aos='zoom-out'>
                 <a href="#" data-lightbox="gallery" data-title="Modern building plan" class="thumbnail">
                     <img src="images/slide3.jpg" class="img-responsive"></a></div>
-                      <div class="col-md-6">
+                      <div class="col-md-6 aos-item" data-aos='zoom-out'>
                 <a href="#" data-lightbox="gallery" data-title="A world of imagination and creativity" class="thumbnail">
                     <img src="images/slide2.jpg" class="img-responsive"></a></div>
                     
-                    <div class="col-md-6">
+                    <div class="col-md-6 aos-item" data-aos='zoom-out'>
                 <a href="#" data-lightbox="gallery" data-title="Nature" class="thumbnail">
                     <img src="images/img1.jpg" class="img-responsive"></a></div>
     </div> </div>
@@ -235,20 +250,20 @@
 
  <br>
 
- <div id="body2" style=" background:url('images/img7.jpg');" class="img-responsive">
+ <div id="body2" style=" background:url('images/img1.jpg'); background-size:100%" class="img-responsive">
  <div class="container-fluid">
 <div class="col-md-12">
     <div id="top-body">
         
         <br>
-        <h3 class="text-capitalize" style="font-weight:bold">OUR PRODUCTS</h3><hr > 
+        <h3 class="text-capitalize aos-item" data-aos='fade-left' style="font-weight:bold; color:#902020">OUR PRODUCTS</h3><hr > 
         <p style="margin-left:70px; font-weight:bold;">View our amazing products suitable for you and your business with skilled professionals at your disposal.
         </p>
        <p class="text-center">  <span class="fa fa-hand-o-down fa-3x " ></span><p>
         <br>
        
         <div id="product" >
-             <p class="text-center" >  <br><br><a href="#" style="color:whitesmoke;" >PRODUCTS</a></p>
+             <p class="text-center" >  <br><br><a href="services.html" style="color:whitesmoke;" ><button class='btn btn-danger'>PRODUCTS</button></a></p>
             </div>
         </div>
    
@@ -260,14 +275,15 @@
           <div class="col-md-12">
     <div id="top-body2">
         
-        <h3 class="text-capitalize" style="font-weight:bold"><span class="fa fa-newspaper-o fa-lg"></span> Newsletters</h3><hr > 
+        <h3 class="text-capitalize aos-item" data-aos='fade-left'style="font-weight:bold; color: #D43439;"><span class="fa fa-newspaper-o fa-lg"></span> Newsletters</h3><hr > 
         <p style="margin-left:70px; font-weight:bold;"> Sign up to receive newletters and updates on our products and service, discounts and special offers.</p>
         <br>
         <form>
         <div class="form-group">
-            <label for="news"></label>
+            <label class="col-md-2" for="news">Enter your email:</label>
+            <div class='col-md-6'>
                 <input type="email" id="news" class="form-control" placeholder="Email Address">
-        </div>
+        </div></div>
         <div class="form-group">
          
             <input class="btn1 btn-danger" type="submit" value="Sign up">
@@ -280,7 +296,7 @@
     </div>
     </div>
   
-   
+   </div>
      </div>
   <br><br><br><br>
         <div classs="container-fluid">
@@ -292,9 +308,9 @@
          
              <div class="panel-group" id="parentpanel1">
              <div class="panel panel-danger">
-                 <div class="panel-heading" style="background-color:black">
+                 <div class="panel-heading" style="background:linear-gradient(#ECEBF0,   #ECEBF0 );">
                      <a href="#panel1" data-parent="#parentpanel1" data-toggle="collapse">
-      <h4 style="color:white; font-family:impact; letter-spacing:2px; word-spacing:3px;" class="text-center text-captalize"> Click to view our partners</h4></a></div>
+      <h4 style="color:#902020; font-family:impact; letter-spacing:2px; word-spacing:3px;" class="text-center text-captalize"> Click to view our partners</h4></a></div>
         <div id="panel1" class="panel-collapse collapse">
         <div class="panel-body"><div class="page-header">
           <h3 class="text-center" style="font-weight:bold;">Partners</h3></div>
@@ -319,7 +335,7 @@
      </div></div></div></div>
  <div class="clearfix"></div>
  
- <footer style="background:url('images/img4.jpg');" class="img-responsive">
+ <footer style="background-color:black;" class="img-responsive">
     <div class="col-md-4">
      <div id="footer1" >
     <p>Copyright&copy 2017-2018</p>
@@ -352,4 +368,9 @@
           
                               </div>
 </body>
+                  <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
 </html>

@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial scal=1">
 <title>Inspiration avenue</title>
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/lightbox.css">
 <link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/aos.css">
 <script src="js/jquery.js"></script>
 <script src="js/lightbox.js"></script>
 <script src="js/bootstrap.js"></script>
+  <script src="js/aos.js"></script>
+   <script src="js/jquery.nicescroll.js"></script>
+<link rel="icon" type="image/png" href="images/icon2.jpg"/>
 <script>
     $(document).ready(function(){
         $('[data-toggle="popover"]').popover()
     })</script>
+    <script>
+    $(document).ready(function(){
+        $("html").niceScroll();
+    });
+    </script>
 
 </head>
 <body>
@@ -37,17 +47,17 @@
 <div class="panel-group" id="parentpanel2">
                        <div class="panel">
                          
-                               <a href="#panel2" style="color:#D43439;"data-parent="#parentpanel2" data-toggle="collapse">
-                                   <li style="color:#D43439;"><span class="fa fa-sign-in fa-lg"></span> Sign in</li>
+                               <a href="#panel2" style="color:#902020;"data-parent="#parentpanel2" data-toggle="collapse">
+                                   <li style="color:#902020;"><span class="fa fa-sign-in fa-lg"></span> Sign in</li>
                                    <div id="panel2" class="panel-collapse collapse">
                                        <div class="panel-body">
                                            <form>
                            <div class="form-group">
-                              <label for="sign-in" style="color:#DB958A;">Username</label>
+                              <label for="sign-in" style="color:#902020;">Username</label>
                                <input type="text" id="sign-in" class="form-control" placeholder="Enter your username">
                                </div>
                                 <div class="form-group">
-                               <label for="sign-in" style="color:#DB958A;">Password</label>
+                               <label for="sign-in" style="color:#902020;">Password</label>
                                <input type="password" id="sign-in"class="form-control" placeholder="Enter your password">
                                </div>
                                <div class="form-group">
@@ -60,7 +70,7 @@
 </ul>
 </div>
 </nav>
- <div class="header"  style="background: url('images/img4.jpg');" >
+ <div class="header"  style="background: url('images/img4.jpg'); background-size:100%;" >
   <div id="signinform">
  <div class="col-md-3">
        <div class="page-header">
@@ -79,30 +89,30 @@
              <input class="btn btn-danger" type="submit" value="Login" >
          </div>
          </form>
-         </div>
+         </div>>
 
     <div class=" col-md-6  text-center">
         <div id="page-title">
-        <div class="page-header">
+        <div class="page-header aos-item" data-aos='fade-left'>
         <h2 style="font-size:40px;"> About us</h2></div>
     
-        <p class="text-primary"><h6 style="font-size:18px; color:white;">We are here to meet your needs</h6></p>
+        <p class="text-primary"><h6 style="font-size:18px; color:#902020;">We are here to meet your needs</h6></p>
     </div>
         </div></div>
         <div class="col-md-row"><br><br><br></div>
        <div class="col-md-3">
             <div id="comments">
-           <div class="page-header"><h3 class="text-center" style=" color:white;letter-spacing: 2px; font-family:impact;">
+           <div class="page-header"><h3 class="text-center" style=" color:#902020;letter-spacing: 2px; font-family:impact;">
                Comments  
                 </h3></div>
-     <p style="font-weight:bold; color:silver;font-size:14px;word-spacing: 2px; text-shadow:none;"> Feel free to drop your comments and feedbacks on our service
+     <p style="font-weight:bold; color:#902020;font-size:14px;word-spacing: 2px; text-shadow:none;"> Feel free to drop your comments and feedbacks on our service
                    and get a response in within 48hours.</p>
                    
                    <div class="panel-group" id="parentpanel2">
                        <div class="panel panel-danger">
                            <div class="panel-heading">
                                <a href="#panel2" data-parent="#parentpanel2" data-toggle="collapse">
-                                   <h4 style="color:#241616; font-family:impact; letter-spacing:1px; font-size:15px;">Click to drop your comments</h4></a></div>
+                                   <h4 style="color:#902020; font-family:impact; letter-spacing:1px; font-size:15px;">Click to drop your comments</h4></a></div>
                                    <div id="panel2" class="panel-collapse collapse">
                                        <div class="panel-body">
                                            <form>
@@ -125,7 +135,7 @@
                                </div></div></div></div>
   
                         </div>
-           </div>
+           </div></div>
      
           
  <div class="col-md-2">
@@ -140,35 +150,36 @@
  
       
 <div class="col-md-12">
-      <div id="service-list"> 
+      <div id="service-list" style='background-color:#f7f7f7;'> 
    
-         <div class="page-header">
+         <div class="page-header aos-item" data-aos='zoom-in'>
         <h3><span class="fa fa-users fa-lg"></span> who we are</h3>
     <br>
-        <p><h5 style="font-weight:bold; color:white;">We are here to make you better...</h5></p></div><br>
-        <div class="page-header">
-            <h2 class="text-center"style="font-size:35px; color:white;">Our Mission</h2>
+        <p><h5 style="font-weight:bold; color:#902020;">We are here to make you better...</h5></p></div><br>
+        <div class="page-header aos-item" data-aos='zoom-in'>
+            <h2 class="text-center"style="font-size:35px; color:#902020;">Our Mission</h2>
             <br>
-            <h4 style="color:white;"><li  class="text-center">To nurture companies and potentials inorder to stand out from the crowd</li></h4>
+            <h4 style="color:#902020;"><li  class="text-center">To nurture companies and potentials inorder to stand out from the crowd</li></h4>
       </div>
         <br><br><br>
+        <div id='about_us' style='background-color:white;'>
        <div class="col-md-6">
            <div id="about-service">
-         <img src="images/img12.jpg" class="img-responsive" > </div></div>
+         <img src="images/img12.jpg" class="img-responsive aos-item" data-aos='zoom-out' > </div></div>
 
 
 
                             <div class="container">
                             <div class="col-md-5">
                                    <div id="about-service2">
-                          <div class="page-header">
+                          <div class="page-header aos-item" data-aos='fade-left'>
               <h3 >About Inspiration Avenue</h3></div>
-        <p style="color:white; font-size:18px;word-spacing:3px;">Inspiration avenue is an organization that is aimed at growing small and medium scale businesses through variety of our services.
+        <p style="color:black; font-size:18px;word-spacing:3px;">Inspiration avenue is an organization that is aimed at growing small and medium scale businesses through variety of our services.
             We offer professional trainings in the ICT, commercial and telecommunication sectors.
             we also provide a network for businnesss owners and professionals.<br> Inspiration avenue was established in 2017, in Lagos Nigeria.
               </div>
                     </div></div></div>
-      
+      </div>
         
       
         <br>
@@ -213,4 +224,11 @@
      </footer>
    
 </div>
+
+
+                  <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
                         </body>

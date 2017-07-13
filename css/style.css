@@ -11,7 +11,7 @@
     
 }
 .navbar .navbar-header .navbar-brand{
- color:#E05C5C;
+ color:#902020;
 
 }
 .navbar .nav-tabs{
@@ -20,9 +20,9 @@
 .navbar a{}
 
 .header{
-
+    height:700px;
    padding-top: 100px;
-    border:2px solid grey;
+    
   
 
   
@@ -34,7 +34,7 @@
     font-size: 50px;  
     text-shadow:1px 1px 1px grey;
     font-family:impact;
-    color:white;
+    color:#902020;
     letter-spacing:2px;
     
 }
@@ -42,7 +42,7 @@
     font-weight:bold;
     font-size: 20px;
     
-     color:silver;
+     color:#902020;
 }
 #signinform{
     padding:40px;
@@ -54,12 +54,13 @@
 
 
 #signinform label{
- color:white;
+ color:#902020;
 }
 #signinform input{
-    border:1px solid #D43439;
+    border:1px solid #902020;
     border-radius:7px;
 }
+
 #part3{
     margin-left:50px;
    
@@ -70,15 +71,15 @@
 
 }
 #container1 #parentpanel2{
-    color:#D43439
+    color:#902020
 }
 
 .content1{
-    margin-top:180px;
+    margin-top:30px;
     
 
     height:500px;
-    -webkit-filter: opacity(70%);
+    -webkit-filter: opacity(90%);
 
     
 
@@ -86,14 +87,7 @@
 }
 .carousel-inner{
    
-     border:5px solid white;
-   
-     
-    
-    
-    
-    
-    
+     border:5px solid black;   
    
 }
 
@@ -111,7 +105,7 @@
    -webkit-filter:contrast(150%);
     border-radius:30px;
     background-size:100%;
-    background:linear-gradient(#ECEBF0, #D43439,  #ECEBF0 );
+    background:linear-gradient(#ECEBF0,  #ECEBF0 );
     -webkit-filter:opacity(70%);
   
     border:3px solid white;
@@ -140,7 +134,7 @@ font-weight:italics;
     -webkit-filter:contrast(120%);
     border-radius:30px;
      background-size:100%;
-     background:linear-gradient(#ECEBF0, #D43439,  #ECEBF0 );
+     background:linear-gradient(#ECEBF0,  #ECEBF0 );
      -webkit-filter:opacity(70%);
      border:3px solid white;
 
@@ -219,10 +213,10 @@ footer #footer-middle{
     width:100%;
 }
 #top-body{
-    background:linear-gradient(#ECEBF0, #D43439,  #ECEBF0 );
+    background:linear-gradient(#ECEBF0,   #ECEBF0 );
     height:400px;
     -webkit-filter:opacity(90%);
-    color:white;
+    color:black;
     padding:35px;
     border-radius:20px;
      border:3px solid black;
@@ -231,33 +225,30 @@ footer #footer-middle{
     }
 
     #top-body2{
-    background:linear-gradient(#ECEBF0, #D43439,  #ECEBF0 );
+    background:linear-gradient(#ECEBF0,   #ECEBF0 );
     height:400px;
     -webkit-filter:opacity(85%);
    
-    color:white;
+    color:black;
     padding:35px;
     border-radius:20px;
      border:3px solid black;
     
     }
-    #product{
+    .button{
        
         width:120px;
         height:120px;
         border:3px solid white;
         margin-left:44%;
-        border-radius:60px;
+      
         font-size:17px;
         font-family:impact;
         letter-spacing:2.5px;
         
     }
 
-#product:hover{
-    background-color:#D43439;
-  
-}
+
 
 #product p a{
     color:#374595;
@@ -332,8 +323,10 @@ footer #footer-middle{
 }
 
 #panel-img img{
-    width:150px;
-    height:150px;
+    width:70px;
+    height:70px;
+    padding:5%;
+    pading-bottom:7%;
 }
 /* Registration page*/
 
@@ -352,7 +345,7 @@ footer #footer-middle{
 }
 .page-header h2{
   font-family:impact;
-  color:#D43439;
+  color:#902020;
   letter-spacing: 3px;
 }
 #body3-container2{
@@ -384,7 +377,7 @@ form .form-group .checkbox{
 
 .header .page-header h2{
     font-size:20px;
-    color:white;
+    color:#902020;
     letter-spacing: 3px;
  
      
@@ -397,7 +390,7 @@ form .form-group .checkbox{
   
 }
 #service-list{
-    background-color:#D43439;
+    background-color:white;
     margin-left:20px;
     padding :10px 60px 60px;
     -webkit-filter:opacity(80%);
@@ -421,23 +414,337 @@ form .form-group .checkbox{
 
 #service-list .page-header{
     font-weight:bold;
-    color:white;
+    color:#902020;
   
 }
 #service-list .page-header h3{
   font-size:30px;
   letter-spacing: 3px;
     font-family:impact;
-    color:white;
+    color:#902020;
 }
 
 #about-service2 h3{
   font-size:30px;
   letter-spacing: 3px;
     font-family:impact;
-    color:white;
+    color:#902020;
 }
 
 #service-list h5{
-    color:silver;
+    color:#902020;
+}
+
+@media only screen and (max-width:480px){
+.navbar-custom{
+    margin:2px;
+  
+    margin-left:opx;
+  
+}
+.navbar .navbar-header{
+    margin-left:0px;
+    font-family:impact;
+    
+}
+.navbar .navbar-header .navbar-brand{
+ color:#902020;
+
+}
+.navbar .nav-tabs{
+    margin-right:20px;
+}
+.navbar a{
+    font-size:9px;
+}
+
+.header{
+    height:600px;
+   padding-top: 5px;
+    
+  
+
+  
+}
+.header h1{
+    font-weight: bold;  
+    font-size: 15px;  
+    text-shadow:1px 1px 1px grey;
+    font-family:impact;
+    color:#902020;
+    letter-spacing:0px;
+    
+}
+.header p{
+    font-weight:bold;
+    font-size: 9px;
+    
+     color:#902020;
+}
+#signinform{
+    padding:5px;
+    padding-top:20px;
+    
+   
+}
+#signinform .page-header{
+     margin-right:20px;
+}
+
+
+#signinform label{
+ color:#902020;
+ font-size:9px;
+}
+#signinform input{
+    border:1px solid #902020;
+    border-radius:7px;
+    width:50%;
+    font-size:9px;
+}
+
+#signinform btn{
+    width:30px;
+    font-size:9px;
+}
+#part3{
+    margin-left:0pxpx;
+   
+    padding:1px 2px 2px 5px;
+    -webkit-filter:opacity(90%);
+  
+  
+
+}
+#container1 #parentpanel2{
+    color:#902020
+}
+
+.content1{
+    margin-top:20px;
+    
+
+    height:500px;
+    -webkit-filter: opacity(90%);
+
+    
+
+
+}
+.carousel-inner{
+   
+     border:5px solid black;   
+   
+}
+
+
+#carousel1{
+   
+  
+}
+.page-header1 h3{
+     font-size:15px;
+}
+#page-header4 p{
+    font-size:9px;
+}
+
+#page-header4 button{
+    font-size:9px;
+}
+#modal2{
+      font-size:10px;
+}
+#modal2 input{
+    width:50%;
+}
+#about1{
+    font-size:10px;
+}
+#about1 h3{
+    font-size:14px;
+}
+ 
+.body{
+  
+}
+#left-side{
+    width:100%;
+    margin-left:5px;
+}
+#left-side h3{
+    margin-left:10px;
+    border-bottom:1px solid grey;
+    font-family:impact;
+}
+#left-side p{
+   margin-left:8px;
+    font-weight:bold;
+    line-height:15px;
+    word-spacing:1px;
+}
+.btn2{
+width:60px;
+height:35px;
+border-radius:10px;
+font-size: 9px;
+font-weight:italics;
+}
+
+#right-side{
+    
+    -webkit-filter:contrast(120%);
+    border-radius:10px;
+     background-size:100%;
+     background:linear-gradient(#ECEBF0,  #ECEBF0 );
+     -webkit-filter:opacity(70%);
+     border:3px solid white;
+
+}
+
+#right-side h3{
+    margin-left:10px;
+    border-bottom:2px solid grey;
+    font-family:impact;
+}
+#right-side p{
+   margin-left:7px;
+    font-weight:bold;
+    line-height:30px;
+    word-spacing:3px;
+}
+
+#body{
+
+   padding:30px;
+   background:linear-gradient(#282829,  #BCBBBC, #3A3A3A); 
+   -webkit-filter:contrast(150%);
+}
+  #top-body{
+    background:linear-gradient(#ECEBF0,   #ECEBF0 );
+    height:350px;
+    -webkit-filter:opacity(90%);
+    color:black;
+    padding:5px;
+    border-radius:20px;
+     border:3px solid black;
+
+    
+    }
+
+    #top-body2{
+    background:linear-gradient(#ECEBF0,   #ECEBF0 );
+    height:350px;
+    -webkit-filter:opacity(85%);
+   
+    color:black;
+    padding:5px;
+    border-radius:20px;
+     border:3px solid black;
+    
+    }
+    .button{
+       
+        width:60px;
+        height:60px;
+        border:3px solid white;
+        margin-left:0%;
+      
+        font-size:10px;
+        font-family:impact;
+        letter-spacing:1px;
+        
+    }
+
+
+
+#product p a{
+    color:#374595;
+}
+#product p a:hover{
+    color:black;
+}
+
+.btn1 {
+  display: inline-block;
+  padding: 0px;
+  margin-bottom: 0;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+ .btn1{
+       
+        width:60px;
+        height:60px;
+        margin-left:10%;
+        border-radius:60px;
+        font-size:10px;
+        font-family:impact;
+        letter-spacing:1px;
+        
+    }
+
+#newsletter:hover{
+    background-color:white;
+  
+}
+
+
+#newsletter p a:hover{
+    color:black;
+}
+#lower-body{
+    font-size:10px;
+    background:linear-gradient(black, #BCBBBC, black) ;
+    height:100px;
+    border:2px solid #D43439;
+}
+#lower-body h4{
+    font-size:10px;
+   
+   
+  
+}
+#lower-body .inner-lower{
+     color:black; 
+   
+}
+
+ .thumbnail img{
+  
+  
+}
+
+#panel-img img{
+    width:70px;
+    height:70px;
+    padding:5%;
+    padding-bottom:7%;
+}
+footer p{
+    font-size:12px;
+    color:white;
+}
+
 }
