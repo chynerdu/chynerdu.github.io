@@ -1,0 +1,443 @@
+
+.navbar-custom{
+    margin:10px;
+  
+    margin-left:40px;
+  
+}
+.navbar .navbar-header{
+    margin-left:40px;
+    font-family:impact;
+    
+}
+.navbar .navbar-header .navbar-brand{
+ color:#E05C5C;
+
+}
+.navbar .nav-tabs{
+    margin-right:25px;
+}
+.navbar a{}
+
+.header{
+
+   padding-top: 100px;
+    border:2px solid grey;
+  
+
+  
+}
+
+
+.header h1{
+    font-weight: bold;  
+    font-size: 50px;  
+    text-shadow:1px 1px 1px grey;
+    font-family:impact;
+    color:white;
+    letter-spacing:2px;
+    
+}
+.header p{
+    font-weight:bold;
+    font-size: 20px;
+    
+     color:silver;
+}
+#signinform{
+    padding:40px;
+   
+}
+#signinform .page-header{
+     margin-right:80px;
+}
+
+
+#signinform label{
+ color:white;
+}
+#signinform input{
+    border:1px solid #D43439;
+    border-radius:7px;
+}
+#part3{
+    margin-left:50px;
+   
+    padding:2px 5px 5px 10px;
+    -webkit-filter:opacity(90%);
+  
+  
+
+}
+#container1 #parentpanel2{
+    color:#D43439
+}
+
+.content1{
+    margin-top:180px;
+    
+
+    height:500px;
+    -webkit-filter: opacity(70%);
+
+    
+
+
+}
+.carousel-inner{
+   
+     border:5px solid white;
+   
+     
+    
+    
+    
+    
+    
+   
+}
+
+}
+#carousel1{
+   
+  
+}
+
+.clearfix{
+    clear:both;
+}
+#left-side{
+   
+   -webkit-filter:contrast(150%);
+    border-radius:30px;
+    background-size:100%;
+    background:linear-gradient(#ECEBF0, #D43439,  #ECEBF0 );
+    -webkit-filter:opacity(70%);
+  
+    border:3px solid white;
+}
+#left-side h3{
+    margin:30px 30px  0 30px;
+    border-bottom:2px solid grey;
+    font-family:impact;
+}
+#left-side p{
+    margin:30px 30px 0 30px;
+    font-weight:bold;
+    line-height:30px;
+    word-spacing:3px;
+}
+.btn2{
+width:120px;
+height:75px;
+border-radius:30px;
+font-size: 18px;
+font-weight:italics;
+}
+
+#right-side{
+    
+    -webkit-filter:contrast(120%);
+    border-radius:30px;
+     background-size:100%;
+     background:linear-gradient(#ECEBF0, #D43439,  #ECEBF0 );
+     -webkit-filter:opacity(70%);
+     border:3px solid white;
+
+}
+
+#right-side h3{
+    margin:30px 30px  0 30px;
+    border-bottom:2px solid grey;
+    font-family:impact;
+}
+#right-side p{
+    margin:30px 30px 0 30px;
+    font-weight:bold;
+    line-height:30px;
+    word-spacing:3px;
+}
+
+#body{
+
+   padding:50px;
+   background:linear-gradient(#282829,  #BCBBBC, #3A3A3A); 
+   -webkit-filter:contrast(150%);
+  
+  
+ 
+}
+footer{
+    
+    background-size:100%;
+
+}
+
+footer #footer1{
+    
+    padding:10px;
+    float:left;
+    
+}
+footer #footer1 .h4{
+    
+   
+}
+footer #footer-middle{
+
+}
+
+footer #footer-middle ul li{
+    float:left;
+    padding:10px;
+    font-weight:bold;
+}
+
+footer #footer2{
+    float:right;
+}
+
+footer #footer2 ul li{
+    float:left;
+    padding:10px;
+    font-weight:bold;
+    margin-left:20px;
+}
+
+footer #footer2 ul li a:hover{
+    color:#D43439;
+}
+
+footer #footer-middle{
+    color:white;
+    padding:20px;
+}
+
+#body2{
+   padding:50px;
+   -webkit-filter:contrast(120%);
+    width:100%;
+}
+#top-body{
+    background:linear-gradient(#ECEBF0, #D43439,  #ECEBF0 );
+    height:400px;
+    -webkit-filter:opacity(90%);
+    color:white;
+    padding:35px;
+    border-radius:20px;
+     border:3px solid black;
+
+    
+    }
+
+    #top-body2{
+    background:linear-gradient(#ECEBF0, #D43439,  #ECEBF0 );
+    height:400px;
+    -webkit-filter:opacity(85%);
+   
+    color:white;
+    padding:35px;
+    border-radius:20px;
+     border:3px solid black;
+    
+    }
+    #product{
+       
+        width:120px;
+        height:120px;
+        border:3px solid white;
+        margin-left:44%;
+        border-radius:60px;
+        font-size:17px;
+        font-family:impact;
+        letter-spacing:2.5px;
+        
+    }
+
+#product:hover{
+    background-color:#D43439;
+  
+}
+
+#product p a{
+    color:#374595;
+}
+#product p a:hover{
+    color:black;
+}
+
+.btn1 {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+ .btn1{
+       
+        width:120px;
+        height:120px;
+        margin-left:42.5%;
+        border-radius:60px;
+        font-size:17px;
+        font-family:impact;
+        letter-spacing:3px;
+        
+    }
+
+#newsletter:hover{
+    background-color:white;
+  
+}
+
+
+#newsletter p a:hover{
+    color:black;
+}
+#lower-body{
+ 
+    background:linear-gradient(black, #BCBBBC, black) ;
+    height:200px;
+    border:2px solid #D43439;
+}
+#lower-body .inner-lower{
+     color:black; 
+   
+}
+
+ .thumbnail img{
+  
+  
+}
+
+#panel-img img{
+    width:150px;
+    height:150px;
+}
+/* Registration page*/
+
+
+ .body3-container {
+  background:linear-gradient(black,#DB958A,#515CA7,  #ECEBF0 );
+-webkit-filter:contrast(100%);
+}
+
+
+.body3{
+  margin-left:30px;
+ 
+
+  
+}
+.page-header h2{
+  font-family:impact;
+  color:#D43439;
+  letter-spacing: 3px;
+}
+#body3-container2{
+ border:3px solid black;
+  -webkit-filter:opacity(90%);
+
+
+}
+#registration{
+    background-color:white;
+    padding:30px;
+    
+    border-radius:30px;
+     border:3px solid black;
+  
+}
+.form-group{
+    font-weight:bold;
+   letter-spacing: 2px;
+}
+
+form .form-group .checkbox{
+    font-weight:bold; 
+    font-family:impact;
+}
+
+/* Service page */
+
+
+.header .page-header h2{
+    font-size:20px;
+    color:white;
+    letter-spacing: 3px;
+ 
+     
+}
+
+
+    #page-title{
+    margin-top:200px;
+         
+  
+}
+#service-list{
+    background-color:#D43439;
+    margin-left:20px;
+    padding :10px 60px 60px;
+    -webkit-filter:opacity(80%);
+    border-radius:30px;
+}
+
+ #service-list img{
+     width:350px;
+     height:300px;
+ } 
+
+/* About us */
+
+
+ #about-service img{
+     width:400px;
+     height:400px;
+     border:3px dotted black;
+
+ }
+
+#service-list .page-header{
+    font-weight:bold;
+    color:white;
+  
+}
+#service-list .page-header h3{
+  font-size:30px;
+  letter-spacing: 3px;
+    font-family:impact;
+    color:white;
+}
+
+#about-service2 h3{
+  font-size:30px;
+  letter-spacing: 3px;
+    font-family:impact;
+    color:white;
+}
+
+#service-list h5{
+    color:silver;
+}
